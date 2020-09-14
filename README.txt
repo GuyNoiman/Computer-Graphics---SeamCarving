@@ -1,0 +1,3 @@
+In the show seams part we needed to show the chosen seams - here's a short explanation about how we implemented that - 
+first we needed to run the reduce/increase functions to create the "seamMapping" matrix which is the index matrix that indicated which indexed we removed. 
+then we "fill" those indexes - whichever seam we removed we replace with "-1" and ten we print these pixel with the red color. 
